@@ -1,0 +1,76 @@
+body {
+    background-image: url(../image/timg.jpg);
+    background-size: cover;
+}
+
+#screen {
+    color: white;
+    border-width: 8px 25px 4px 25px;
+    border-style: solid;
+    border-color: transparent;
+    width: 422px;
+    height: 80px;
+    font-size: 30px;
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow: hidden;
+}
+
+.panel {
+    color: white;
+    border: 1px solid #fff;
+    width: 472px;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.panel p, .panel input {
+    font-size: 30px;
+    margin: 4px;
+    float: left;
+    border-radius: 6px;
+}
+
+.panel .bu {
+    width: 110px;
+    height: 80px;
+    color: white;
+    text-shadow: 1px 1px 1px #fff;
+    border: 1px solid #dce1e6;
+}
+
+.panel input {
+    width: 225px;
+    height: 80px;
+    color: white;
+    border: 1px solid #1e7db9;
+    background: transparent;
+}
+
+#ok {
+    width: 458px;
+}
+
+.panel input:hover {
+    border: 1px solid #fff;
+    background: -webkit-linear-gradient(top, #aaebb9, #82d392);
+    background: -moz-linear-gradient(top, #aaebb9, #82d392);
+    background: linear-gradient(top, #aaebb9, #82d392);
+}
+
+.panel p {
+    width: 452px;
+    height: 36px;
+    padding: 3px;
+    overflow: hidden;
+}
+
+.panel #space {
+    width: 452px;
+    height: 10px;
+    padding: 3px;
+    overflow: hidden;
+}
